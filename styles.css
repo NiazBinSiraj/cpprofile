@@ -1,45 +1,45 @@
 @import "./lib/css/bulma.css";
 
-:root{
-    --primary_color: #212834;
-    --secondary_color: #048BC2;
-    --tertiary_color: #979494;
-    --tertiary_color_hover: white;
+:root {
+  --primary_color: #212834;
+  --secondary_color: #048bc2;
+  --tertiary_color: #979494;
+  --tertiary_color_hover: white;
 }
-.navbar{
-    background-color: var(--primary_color);
-}
-
-.logo{
-    color: var(--tertiary_color);
-    font-size: larger;
-    font-weight: 500;
+.navbar {
+  background-color: var(--primary_color);
 }
 
-.logo:hover{
-    color: var(--tertiary_color_hover) !important;
+.logo {
+  color: var(--tertiary_color);
+  font-size: larger;
+  font-weight: 500;
 }
 
-a.navbar-menu-item{
-    color: var(--tertiary_color) !important;
+.logo:hover {
+  color: var(--tertiary_color_hover) !important;
 }
 
-a.navbar-menu-item:hover{
-    color: var(--tertiary_color_hover) !important;
-    cursor: pointer;
-    background-color: black !important;
+a.navbar-menu-item {
+  color: var(--tertiary_color) !important;
 }
 
-.footer{
-    background-color: var(--primary_color);
-    color: var(--tertiary_color_hover);
-    padding: 5px;
+a.navbar-menu-item:hover {
+  color: var(--tertiary_color_hover) !important;
+  cursor: pointer;
+  background-color: black !important;
 }
 
-a.icon{
-    color: white;
+.footer {
+  background-color: var(--primary_color);
+  color: var(--tertiary_color_hover);
+  padding: 5px;
 }
 
-.is-justify{
-    text-align: justify;
+a.icon {
+  color: white;
+}
+
+.is-justify {
+  text-align: justify;
 }
