@@ -143,7 +143,7 @@ async function OnClickAtcoder() {
 function OnClickLeetcode() {
     SelectOj("leetcode");
     
-    fetch("cpprofile/data/leetcode.json")
+    fetch("/cpprofile/data/leetcode.json")
     .then((res) => {
         return res.json();
     })
